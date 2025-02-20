@@ -62,7 +62,7 @@ const [details, setDetails] = useState("")
             token: localStorage.getItem("tkn"),
           },
           params:{
-            url : "https://e-commerce-green-zeta-11.vercel.app/"
+            url : "https://e-commerce-green-zeta-11.vercel.app"
           }
         }
       )
