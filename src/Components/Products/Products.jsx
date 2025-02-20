@@ -103,7 +103,7 @@ const Products = () => {
                     </button>
 
                     <div>
-                      {loader[product.id] ? <i className='fa-solid fa-heart text-2xl cursor-pointer p-3 w-1/4 md:w-1/4 text-slate-200'></i> : <i onClick={() => toggleWishlist(product.id)} className={`fa-solid fa-heart text-2xl cursor-pointer p-3 w-1/4 md:w-1/4 translate-x-[90px]  ${
+                      {loader[product.id] ? <i className='fa-solid fa-heart text-2xl cursor-pointer p-3 w-1/4 md:w-1/4 text-slate-200 translate-x-[90px]'></i> : <i onClick={() => toggleWishlist(product.id)} className={`fa-solid fa-heart text-2xl cursor-pointer p-3 w-1/4 md:w-1/4 translate-x-[90px]  ${
                         wishlist.find((item) => item._id === product.id) ? "text-red-600" : "text-slate-300" }`}></i> }
                     </div> 
 
