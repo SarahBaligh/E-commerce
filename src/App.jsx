@@ -19,8 +19,8 @@ import Payment from "./Components/Payment/Payment";
 import WishlistContextProvider from "./Context/WishlistContext";
 import ForgetPassword from "./Components/ForgetPassword/ForgetPassword";
 import VerifyCode from "./Components/VerifyCode/VerifyCode";
-import ResetPassword from "./Components/resetPassword/resetPassword";
 import AllOrders from "./Components/AllOrders/AllOrders";
+import ResetnewPassword from './Components/ResetnewPassword/ResetnewPassword';
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
         { path: "/register", element: <Register /> },
         { path: "/forgetPassword", element: <ForgetPassword /> },
         { path: "/verifyCode", element: <VerifyCode /> },
-        { path: "/resetPassword", element: <ResetPassword /> },
+        { path: "/resetPassword", element: <ResetnewPassword /> },
         { path: "/brands", element: <ProtectedRoute><Brands /></ProtectedRoute> },
         { path: "/category", element: <ProtectedRoute><Category /></ProtectedRoute> },
         { path: "/products", element: <ProtectedRoute><Products /></ProtectedRoute> },
